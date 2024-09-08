@@ -1,8 +1,10 @@
+import Layout from "./Layout/Layout"
+
 function App() {
   
   return (
     <>
-      <h1>Hi</h1>
+      <Layout className="font-galliard"/>
     </>
   )
 }

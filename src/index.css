@@ -1,3 +1,21 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+body {
+    @apply font-galliard text-primaryText;
+}
+
+@font-face {
+    font-family: 'Galliard';
+    src: url('/src/assets/fonts/Galliard-Regular.ttf') format('truetype');
+    font-weight: 400; /* Normal weight */
+    font-style: normal; /* Regular */
+}
+
+@font-face {
+    font-family: 'Galliard';
+    src: url('/src/assets/fonts/Galliard-BoldItalic/Galliard-BoldItalic.ttf') format('truetype');
+    font-weight: 400; /* Bold weight */
+    font-style: italic; /* Bold Italic */
+  }
