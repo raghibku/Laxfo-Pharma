@@ -29,7 +29,7 @@ export default {
         mytheme: {
           "primary": "#4CAF50",        // Example primary color
           "secondary": "#9C27B0",      // Example secondary color
-          "accent": "#FF5722",         // Example accent color
+          "accent": "#164F49",         // Example accent color
           "neutral": "#333333",        // Example neutral color
           "nav-bg":"#F2EBE0",
           "green-bg":"#15322D",
