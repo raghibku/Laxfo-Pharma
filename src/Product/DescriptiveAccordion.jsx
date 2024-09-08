@@ -1,25 +1,4 @@
-const AccordianContent = [
-    {
-        title: "Benefits",
-        desc: ["Supports anti aging", "Boost collagen production"]
-    },
-    {
-        title: "Ingredients",
-        desc: ["Supports anti aging", "Boost collagen production"]
-    },
-    {
-        title: "How to Use",
-        desc: ["Supports anti aging", "Boost collagen production"]
-    },
-    {
-        title: "Cautions",
-        desc: ["Supports anti aging", "Boost collagen production"]
-    },
-    {
-        title: "Shipping and Returns",
-        desc: ["Supports anti aging", "Boost collagen production"]
-    },
-]
+import { AccordianContent } from "../constants"
 
 const DescriptiveAccordion = () => {
     return (
@@ -32,7 +11,7 @@ const DescriptiveAccordion = () => {
                         {
                             AccordianContent.map((item) => {
                                 return (
-                                    <div className="collapse collapse-plus p-2">
+                                    <div className="collapse collapse-plus p-2 border-b-[1px] border-[#DCD2BB]">
                                         <input type="radio" name="my-accordion-3" />
                                         <div className="collapse-title text-xl font-medium">{item.title}</div>
                                         <div className="collapse-content">
