@@ -7,6 +7,7 @@ export default {
   theme: {
     extend: {
       backgroundColor: {
+        "green-bg":"#15322D",
         'nav-bg': '#F2EBE0',  // Custom utility class for background color
       },
       colors: {
@@ -31,6 +32,7 @@ export default {
           "accent": "#FF5722",         // Example accent color
           "neutral": "#333333",        // Example neutral color
           "nav-bg":"#F2EBE0",
+          "green-bg":"#15322D",
           "base-100": "#FFFFF6",       // Background color
           "info": "#2094F3",           // Info color
           "success": "#8BC34A",        // Success color
