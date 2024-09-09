@@ -5,7 +5,7 @@ const Consultation = () => {
     <div className='w-full bg-[#f2e7ce]'>
             <div className="max-w-[1360px] mx-auto w-full flex flex-col md:flex-row justify-between items-center  ">
                 {/* image */}
-                <img src="/src/assets/images/consultation.png" className='max-w-[420px] ' alt="" />
+                <img src="/assets/images/consultation.png" className='max-w-[420px] ' alt="" />
                 {/* <div className='w-[50%] h-full'>
                     
                 </div> */}

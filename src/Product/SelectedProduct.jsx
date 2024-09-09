@@ -7,7 +7,7 @@ import { addToLS } from "../utilities/localStorage";
 // const ProductList = [
 //     {
 //         id:"10061",
-//         image:"/src/assets/images/selected-porduct.png",
+//         image:"/assets/images/selected-porduct.png",
 //         title:"Liposomal Vitamin C",
 //         price: {"500":"4332.32","200":"2332.32","100":"1332.32",},
 //         desc:['Liposomal Vitamin C is an advanced form of Vitamin C encapsulated within liposomes, which are tiny fat-like particles that enhance its absorption and bioavailability in the body.','This delivery method allows for more efficient cellular uptake, ensuring that higher levels of Vitamin C reach the bloodstream and tissues.','It provides potent antioxidant support, boosts the immune system, promotes collagen production, and enhances skin health. Liposomal Vitamin C is ideal for those seeking maximum benefits from their Vitamin C supplementation.'],
@@ -73,7 +73,7 @@ const SelectedProduct = () => {
                     <div className="flex flex-col justify-start items-start w-full lg:w-[50%] ">
                         {/* see all reviews */}
                         <div className="w-full flex flex-start justify-start items-start gap-3">
-                            <img src="/src/assets/icons/rating.png" alt="" />
+                            <img src="/assets/icons/rating.png" alt="" />
                             <u>see all ratings</u>
                         </div>
                         {/* product title */}
@@ -144,7 +144,7 @@ const SelectedProduct = () => {
                         {/* subscribe */}
                         <Subscribe />
                         {/* more info */}
-                        <img src="/src/assets/icons/moreInfo.png" className="w-full mt-10" alt="" />
+                        <img src="/assets/icons/moreInfo.png" className="w-full mt-10" alt="" />
                     </div>
                 </div>
             </div>

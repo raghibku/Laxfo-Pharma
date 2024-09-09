@@ -5,7 +5,7 @@ const HeroSection = () => {
         <div className='w-full'>
             <div className="max-w-[1360px] mx-auto w-full flex flex-col lg:flex-row justify-between items-center min-h-screen ">
                 {/* image */}
-                <img src="/src/assets/images/HeroImage.png" className='w-full lg:w-auto h-auto lg:h-screen' alt="" />
+                <img src="/assets/images/HeroImage.png" className='w-full lg:w-auto h-auto lg:h-screen' alt="" />
                 {/* <div className='w-[50%] h-full'>
                     
                 </div> */}

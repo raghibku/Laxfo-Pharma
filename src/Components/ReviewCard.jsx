@@ -22,7 +22,7 @@ const ReviewCard = (props) => {
             </div>
             {/* rating */}
             <div className="flex justify-start items-start gap-4 w-full">
-                <img src="/src/assets/icons/rating.png" alt="" />
+                <img src="/assets/icons/rating.png" alt="" />
                 <p>{rating}</p>
             </div>
             {/* quote */}

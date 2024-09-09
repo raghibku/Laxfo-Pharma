@@ -31,7 +31,7 @@ const Navbar = () => {
         <div className="flex justify-between items-center w-full text-[16px]">
           {/* logo */}
           <div>
-            <img src="/src/assets/logo/logo.png" className="h-[41px] w-[93px]" alt="" />
+            <img src="/assets/logo/logo.png" className="h-[41px] w-[93px]" alt="" />
           </div>
           {/* routes */}
           <div>
@@ -47,9 +47,9 @@ const Navbar = () => {
           </div>
           {/* end */}
           <div className="flex justify-center items-center gap-4">
-            <img src="/src/assets/icons/search.png" className="h-[24px] w-[24px] p-1" alt="" />
+            <img src="/assets/icons/search.png" className="h-[24px] w-[24px] p-1" alt="" />
             <div onClick={() => SetCartModal(!cartModal)} className="cursor-pointer pr-4 z-10 text-gray-500 ">
-              {cartModal ? <FaTimes size={24} /> :<img src="/src/assets/icons/cart.png" className="h-[24px] w-[24px]" alt="" /> }
+              {cartModal ? <FaTimes size={24} /> :<img src="/assets/icons/cart.png" className="h-[24px] w-[24px]" alt="" /> }
             </div>
             
             <button className="bg-transparent border-none w-min text-nowrap hidden md:flex">

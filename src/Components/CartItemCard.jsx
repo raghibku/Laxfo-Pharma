@@ -34,7 +34,7 @@ const CartItemCard = (props) => {
             <div className="flex flex-col justify-between items-center gap-6">
                 <p className="text-nowrap">BDT {mulPrice}</p>
                 <button onClick={() => handleRemove(index)}>
-                    <img src="/src/assets/icons/remove.png" alt="" />
+                    <img src="/assets/icons/remove.png" alt="" />
                 </button>
             </div>
 

@@ -28,7 +28,7 @@ const DescriptiveAccordion = () => {
 
                     {/* Image */}
                     <div className="w-full lg:w-[45%]">
-                        <img src="/src/assets/images/desc-accord-image.png" className="w-full" alt="" />
+                        <img src="/assets/images/desc-accord-image.png" className="w-full" alt="" />
                     </div>
                 </div>
             </div>

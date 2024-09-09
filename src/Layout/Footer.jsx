@@ -9,7 +9,7 @@ const Footer = () => {
         <div className="w-full flex flex-col lg:flex-row justify-between items-center gap-6">
           {/* logo */}
           <div >
-            <img src="/src/assets/logo/logo-white.png" className="h-[83px] w-[186px]" alt="" />
+            <img src="/assets/logo/logo-white.png" className="h-[83px] w-[186px]" alt="" />
           </div>
           {/* newsletter */}
           <div className="lg:w-[462px] flex flex-col justify-center items-center gap-[27px] ">
@@ -31,11 +31,11 @@ const Footer = () => {
               We are here to help
             </p>
             <div className="gap-5 flex justify-center items-center">
-              <img src="/src/assets/icons/social_one.png" className="h-[36px] w-[36px]" alt="" />
-              <img src="/src/assets/icons/ig.png" className="h-[36px] w-[36px]" alt="" />
-              <img src="/src/assets/icons/phone.png" className="h-[36px] w-[36px]" alt="" />
-              <img src="/src/assets/icons/whatsapp.png" className="h-[36px] w-[36px]" alt="" />
-              <img src="/src/assets/icons/messenger.png" className="h-[36px] w-[36px]" alt="" />
+              <img src="/assets/icons/social_one.png" className="h-[36px] w-[36px]" alt="" />
+              <img src="/assets/icons/ig.png" className="h-[36px] w-[36px]" alt="" />
+              <img src="/assets/icons/phone.png" className="h-[36px] w-[36px]" alt="" />
+              <img src="/assets/icons/whatsapp.png" className="h-[36px] w-[36px]" alt="" />
+              <img src="/assets/icons/messenger.png" className="h-[36px] w-[36px]" alt="" />
             </div>
           </div>
 

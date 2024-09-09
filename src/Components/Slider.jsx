@@ -29,46 +29,46 @@ const Slider = () => {
     return (
         <div className="w-full flex justify-between items-center ">
             <button>
-                <img src="/src/assets/icons/slider-l.png" className="h-[34px] w-[34px]" alt="" />
+                <img src="/assets/icons/slider-l.png" className="h-[34px] w-[34px]" alt="" />
             </button>
             {/* slider */}
             <div ref={carouselRef}
                 tabIndex="0" className="carousel carousel-center bg-transparent rounded-box w-[60%] lg:w-full max-w-md space-x-4 p-4 ">
                 <div className="carousel-item">
                     <img
-                        src="/src/assets/images/slider-image-4.png"
+                        src="/assets/images/slider-image-4.png"
                         className=" h-[95px] w-[95px]" />
                 </div>
                 <div className="carousel-item">
                     <img
-                        src="/src/assets/images/slider-image-1.png"
+                        src="/assets/images/slider-image-1.png"
                         className=" h-[95px] w-[95px]" />
                 </div>
                 <div className="carousel-item">
                     <img
-                        src="/src/assets/images/slider-image-2.png"
+                        src="/assets/images/slider-image-2.png"
                         className=" h-[95px] w-[95px]" />
                 </div>
                 <div className="carousel-item">
                     <img
-                        src="/src/assets/images/slider-image-3.png"
+                        src="/assets/images/slider-image-3.png"
                         className=" h-[95px] w-[95px]" />
                 </div>
                 <div className="carousel-item">
                     <img
-                        src="/src/assets/images/slider-image-4.png"
+                        src="/assets/images/slider-image-4.png"
                         className=" h-[95px] w-[95px]" />
                 </div>
                 <div className="carousel-item">
                     <img
-                        src="/src/assets/images/slider-image-1.png"
+                        src="/assets/images/slider-image-1.png"
                         className=" h-[95px] w-[95px]" />
                 </div>
 
             </div>
 
             <button onClick={handleRightArrowClick}>
-                <img src="/src/assets/icons/slider-r.png" className="h-[34px] w-[34px]" alt="" />
+                <img src="/assets/icons/slider-r.png" className="h-[34px] w-[34px]" alt="" />
             </button>
         </div>
     )
