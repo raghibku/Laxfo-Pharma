@@ -1,24 +1,40 @@
-export const FrequentlyBoughtProducts = [
+export const ProductList = [
     {
+        id:"10061",
+        image:"/src/assets/images/selected-porduct.png",
+        title:"Liposomal Vitamin C",
+        price: {"500":"4332","200":"2332","100":"1332",},
+        desc:['Liposomal Vitamin C is an advanced form of Vitamin C encapsulated within liposomes, which are tiny fat-like particles that enhance its absorption and bioavailability in the body.','This delivery method allows for more efficient cellular uptake, ensuring that higher levels of Vitamin C reach the bloodstream and tissues.','It provides potent antioxidant support, boosts the immune system, promotes collagen production, and enhances skin health. Liposomal Vitamin C is ideal for those seeking maximum benefits from their Vitamin C supplementation.'],
+        sizes:['100','200','500'],
+        flavors:['orange' , 'berry' ,'lemon' ],
+        freqBought: false
+    },
+    {
+        id:"10062",
         title:"Omega-3 Essential",
         price:"200",
         image:"/src/assets/images/card-1.png",
         desc:"Get brighter brain energy from nourishing fats and key vitamins in this clever blend.",
-        quantity:"100mg"
+        quantity:"100mg",
+        freqBought: true
     },
     {
+        id:"10063",
         title:"Heart",
         price:"300",
         image:"/src/assets/images/card-2.png",
         desc:"Nourish your heart with clinically studied AlmegaPL® EPA for supporting healthy heart and cardiovascular function",
-        quantity:"100mg"
+        quantity:"100mg",
+        freqBought: true
     },
     {
+        id:"10064",
         title:"Omega-3 Minis",
         price:"400",
         image:"/src/assets/images/card-3.png",
         desc:"Your favorite omega-3, now in an easier-to-swallow mini size.",
-        quantity:"100mg"
+        quantity:"100mg",
+        freqBought: true
     },
 ]
 

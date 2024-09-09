@@ -33,7 +33,7 @@ const Slider = () => {
             </button>
             {/* slider */}
             <div ref={carouselRef}
-                tabIndex="0" className="carousel carousel-center bg-transparent rounded-box max-w-md space-x-4 p-4 ">
+                tabIndex="0" className="carousel carousel-center bg-transparent rounded-box w-[60%] lg:w-full max-w-md space-x-4 p-4 ">
                 <div className="carousel-item">
                     <img
                         src="/src/assets/images/slider-image-4.png"

@@ -6,13 +6,13 @@ const Footer = () => {
       <div className="max-w-custom w-full mx-auto py-[36px] px-12 ">
 
         {/* inner Container */}
-        <div className="w-full flex justify-between items-center">
+        <div className="w-full flex flex-col lg:flex-row justify-between items-center gap-6">
           {/* logo */}
           <div >
             <img src="/src/assets/logo/logo-white.png" className="h-[83px] w-[186px]" alt="" />
           </div>
           {/* newsletter */}
-          <div className="w-[462px] flex flex-col justify-center items-center gap-[27px] ">
+          <div className="lg:w-[462px] flex flex-col justify-center items-center gap-[27px] ">
             {/* text */}
             <p className="text-center w-full">
               Subscribe to the newsletter and always stay updated on the <br />
