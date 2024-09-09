@@ -5,7 +5,7 @@ import Cart from "../Components/Cart";
 
 const Navbar = () => {
   const [nav, setNav] = useState(false)
-  const [cartModal,SetCartModal] = useState(false)
+  const [cartModal, SetCartModal] = useState(false)
   const links = [
     {
       id: 1,
@@ -28,6 +28,7 @@ const Navbar = () => {
     <div className="bg-nav-bg ">
       <div className="max-w-custom w-full mx-auto py-4 px-4 md:px-12">
         {/* inner container */}
+        
         <div className="flex justify-between items-center w-full text-[16px]">
           {/* logo */}
           <div>
@@ -49,9 +50,9 @@ const Navbar = () => {
           <div className="flex justify-center items-center gap-4">
             <img src="/assets/icons/search.png" className="h-[24px] w-[24px] p-1" alt="" />
             <div onClick={() => SetCartModal(!cartModal)} className="cursor-pointer pr-4 z-10 text-gray-500 ">
-              {cartModal ? <FaTimes size={24} /> :<img src="/assets/icons/cart.png" className="h-[24px] w-[24px]" alt="" /> }
+              {cartModal ? <FaTimes size={24} /> : <img src="/assets/icons/cart.png" className="h-[24px] w-[24px]" alt="" />}
             </div>
-            
+
             <button className="bg-transparent border-none w-min text-nowrap hidden md:flex">
               Sign In
             </button>
@@ -76,15 +77,15 @@ const Navbar = () => {
                   className="w-full text-center border-y border-[#DCD2BB] px-4 cursor-pointer capitalize py-3 text-[24px]"
                 >
                   <button
-                      onClick={() => setNav(!nav)}
-                    >
-                      Sign In
-                    </button>
+                    onClick={() => setNav(!nav)}
+                  >
+                    Sign In
+                  </button>
                 </li>
               </ul>)
             }
             {cartModal &&
-              (<Cart/>)
+              (<Cart />)
             }
           </div>
         </div>

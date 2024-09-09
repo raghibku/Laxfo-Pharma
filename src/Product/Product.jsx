@@ -1,4 +1,5 @@
 
+import Path from '../Components/Path'
 import Advertise from './Advertise'
 import Consultation from './Consultation'
 import DescriptiveAccordion from './DescriptiveAccordion'
@@ -10,6 +11,7 @@ import SelectedProduct from './SelectedProduct'
 const Product = () => {
   return (
     <div>
+        <Path/>
         <SelectedProduct/>
         <DescriptiveAccordion/>
         <HeroSection/>

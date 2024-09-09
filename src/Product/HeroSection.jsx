@@ -10,9 +10,9 @@ const HeroSection = () => {
                     
                 </div> */}
                 {/* message */}
-                <div className='w-full min-h-screen bg-[#677557] flex justify-center items-center'>
+                <div className='w-full min-h-screen bg-[#677557] flex justify-center items-center p-6'>
                     <div className='lg:w-[487px] '>
-                        <p className='text-[32px] text-white'>As a certified organic, family-run pharmaceutical, our Laxfo goes directly from us to you <br /> —with love.</p>
+                        <p className='text-[24px] lg:text-[32px] text-white italic'>As a certified organic, family-run pharmaceutical, our Laxfo goes directly from us to you <br /> —with love.</p>
                     </div>
                 </div>
             </div>

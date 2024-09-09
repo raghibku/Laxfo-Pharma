@@ -3,6 +3,8 @@ import Slider from "../Components/Slider";
 import Subscribe from "../Components/Subscribe";
 import { ProductList } from "../constants";
 import { addToLS } from "../utilities/localStorage";
+import { ToastContainer, toast } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
 
 // const ProductList = [
 //     {
@@ -48,8 +50,8 @@ const SelectedProduct = () => {
             flavor:selectedFlavor,
             quantity: 1
         }
-        console.log(newCartItem)
         addToLS(newCartItem);
+        toast.success("Item Added To Cart");
     }
     useEffect(() => {
         console.log(selectedFlavor)
@@ -148,7 +150,7 @@ const SelectedProduct = () => {
                     </div>
                 </div>
             </div>
-
+            <ToastContainer autoClose={2000} theme="light" />
         </div>
     )
 }
